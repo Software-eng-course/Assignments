@@ -25,8 +25,8 @@ You can use your own local installation of java and if not then create an accoun
 >
 > # 2) Reverse an Array
 >
-> Complete the fork-join code below to solve the following problem: •
-> Input: An int\[\] (though the element type happens to be irrelevant)
+> Complete the fork-join code below to solve the following problem:
+> • Input: An int\[\] (though the element type happens to be irrelevant)
 >
 > • Output: A new int\[\] where the elements are in the reverse order.
 > For example, the element in the last array index of the input will be
@@ -75,13 +75,19 @@ You can use your own local installation of java and if not then create an accoun
 >
 > Write a parallel fork-join merge sort algorithm. You do NOT have to
 > write a parallel merge phase --- instead, you can use a normal
-> sequential merge. Once you have the parallel algorithm working, add a
-> sequential cutoff, below which you just call Arrays.sort(). Write a
-> test harness that generates random numbers for the algorithm to sort.
+> sequential merge. 
+
+> Once you have the parallel algorithm working, add a
+> sequential cutoff, below which you just call Arrays.sort(). 
+
+> Write a test harness that generates random numbers for the algorithm to sort.
 > Experiment to find the optimal cutoff point (i.e., when is it
-> preferable to just sort sequentially). If you're using replit.com, you
-> may never see gains from parallelism, but on a local Java installation
+> preferable to just sort sequentially). 
+
+> If you're using replit.com, you may never see gains from parallelism, but on a local Java installation
 > you should be able to get around 2x speedup over sequential code using
 > 2-4 cores for millions of elements.
 
+# Note:
+> This assignment requires you to submit .pdf file for your answers for question no. 3 and your java code for other remaining questions. 
 
