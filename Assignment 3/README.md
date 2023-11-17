@@ -1,7 +1,7 @@
 > 
 ># Assignments
 Homework 3
-Due Date: 11/17/2023 11.59PM
+Due Date: 12/01/2023 12.00 AM
 
 ## Students
 
